@@ -1,0 +1,76 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+section article{
+    border: 0.1cm solid black;
+    border-radius: 1cm;
+}
+
+section h2{
+    text-align: center;
+    color:white;
+    font-size: 15mm;
+    text-shadow: 1.5mm 1.5mm 0mm black;
+    font-family: 'Helvetica';
+    background:  rgb(56, 55, 55);
+    padding: 0.5cm;
+}
+html{
+    font-size: 7mm;
+
+}
+
+section article{
+    color:white;
+    background: gray;
+    border-radius: 0.2cm;
+    padding: 1cm 2cm 4cm 2cm;
+    margin: 1cm;
+    border: 0.2cm solid black,
+}
+
+
+section article ul li:before{
+    
+        content: ' \2022';
+        text-shadow: 2px 2px 0 black;
+    
+}
+
+section article ul li:first-child{
+    font-size: 0.7cm;
+    background:white;
+    color:black;
+    list-style:none;;
+}
+
+section article ul li:nth-of-type(2){
+    font-size: 1cm;
+    list-style:none;
+}
+
+
+section article ul li:last-child{
+    font-size: 1.2cm;
+    background:white;
+    color:black;
+    list-style:none;
+}
+
+html p{
+    font-size:7mm;
+}
+
+section article h3{
+    text-align:left;
+    font-size: 2.5cm;
+    margin-top: 2.5cm;
+    
+} 
+
